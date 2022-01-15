@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Domain
+namespace Domain.Entities
 {
-    class Endereco
+    public class Endereco
     {
         public int Id { get; set; }
         public string Rua { get; set; }

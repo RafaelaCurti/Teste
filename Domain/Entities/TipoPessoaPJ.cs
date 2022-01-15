@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Domain
+namespace Domain.Entities
 {
-    class TipoPessoaPF : Pessoa
+    public class TipoPessoaPF : Pessoa
     {
         public int Id { get; set; }
         public int CNPJ { get; set; }
